@@ -1,0 +1,123 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+.login-btn {
+	color: rgb(172, 57, 16);
+	border: rgb(232, 122, 83);
+	border-radius: 5px;
+	box-shadow: #8e8787 0px 0px 3px -0.5px;
+}
+
+.navbar-brand i {
+	color: rgb(223, 84, 4);
+	border: 1px solid coral;
+	width: 33px;
+	height: 35px;
+	border-radius: 8px;
+	padding: 3px;
+}
+
+#navbarSupportedContent {
+	margin-left: 680px;
+}
+.more-btn{
+    padding: 5px;
+    border: 1px solid rgba(255, 127, 80, 0.555);
+    border-radius: 5px;
+	transition: .8s;
+}
+.more-btn:hover{
+	background-color: rgba(207, 44, 44, 0.808);
+	color: #000;
+}
+
+
+.slider-section{
+    background: url("https://i.ibb.co/3rwhh5b/ia-200000012.jpg") rgba(0, 0, 0, 0.507) no-repeat center center;
+    padding: 200px 0;
+    background-blend-mode: overlay;
+}
+
+/* about section */
+
+.about-section {
+	background-color: #eeeeee;
+}
+.about-text-left{
+	margin-top: 30px;
+}
+.about-text-left h4 {
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-left: 15px;
+}
+.about-text-left p {
+	font-size: 20px;
+	line-height: 40px;
+	padding: 15px;
+}
+.about-photo-right {
+	border: 3px solid #f5f5f5;
+}
+.courses{
+	background-color: #ffffff
+}
+.learn-btn {
+	text-decoration: none;
+	color: chocolate;
+	border: 1px solid;
+	padding: 5px;
+	border-radius: 5px;
+}
+.left-img-sec{
+	width: 40%;
+	height: auto;
+}
+.left-test-sec {
+	width: 60%;
+	padding: 5px;
+	margin-left: 15px;
+}
+
+.number-programs{
+	background-color: rgb(212, 216, 219);
+}
+
+
+
+.our-teacher{
+	position: relative;
+}
+.our-teacher a{
+    position: relative;
+    display: block;
+}
+.text-item h6 {
+	margin-top: 400px;
+	font-size: 50px;
+}
+
+.text-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(219, 213, 236);
+    text-align: center;
+    width: 0%;
+    height: 0%;
+    background-color: rgba(238, 101, 231, 0.445);
+    visibility: hidden;
+    opacity: 0;
+}
+/* .our-teacher:hover .text-item{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+} */
+
+
+.our-teacher-bg{
+    background-color: #f7f9ff;
+}
